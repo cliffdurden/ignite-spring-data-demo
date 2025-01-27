@@ -1,0 +1,6 @@
+spring.application.name: ignite-spring-data-demo
+
+ignite-client:
+  addresses: 127.0.0.1:10800 # this is mandatory property!
+  timeout: 10000
+  tcpNoDelay: false
